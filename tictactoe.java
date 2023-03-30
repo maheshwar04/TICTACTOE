@@ -21,6 +21,7 @@ public class tictactoe {
            arr[i][j]=player;
            gameover=haveOwn(arr,player);
            if(gameover){
+            printarr(arr);
             System.out.println("| "+player+" | WON ");
             return;
            }else{
